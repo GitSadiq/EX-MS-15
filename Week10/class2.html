@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class2W10</title>
+</head>
+<body>
+    
+    <script>
+
+        // ===============nested loop===========
+        // var firstArr = ["Muhammad", "Rana"]
+        // var secondArr = ["Shafiq", "Sadiq", "Hasan"]
+        // var thirdArr = ["khan"+ "Ali"]
+        // // for(var i = 0; i < firstArr.length; i++){
+        // //     document.write(firstArr[i]+" ")
+        // // }
+        // for(var i=0; i<firstArr.length; i++){
+        //     for(var j=0; j<secondArr.length; j++){
+        //        for(var k=0; k<thirdArr.length; k++) {
+        //         document.write(firstArr[i]+" "+secondArr[j]+ " "+ thirdArr[k]+"<br>")
+        //        }
+        //     }
+        // }
+
+        // for (var i=1; i<=91; i+10){
+        //     for(var j=1; j<=10; j++){
+        //         document.write(i+" "+(i+j)+" ")
+        //     }
+
+        // }
+
+        // ======================Task No:1 Counting 1 to 100============
+
+        // for (var i=1; i<=100; i = i+10){
+        //     for ( j=i; j<i+10; j++){
+        //         document.write(j+" ")
+        //     }
+        //         document.write("<br>")
+
+        // }
+
+        // ======================Task No:2 ============
+        //*
+        //* *
+        //* * *
+        //* * * *
+        //* * * * *
+
+        document.write("<p>"+"<h3>"+"Task#2"+"</h3>"+"</p>")
+
+
+            for (var i = 1; i<=5; i++){
+                for(j=1; j<=i ; j++){
+                    document.write("*"+ " ")
+                }
+                
+                document.write("<br>")
+            }
+
+
+
+
+         // ======================Task No:3 ============
+        //* * * * *
+        //* * * *
+        //* * *
+        //* *
+        //*
+
+        document.write("<p>"+"<h3>"+"Task#3"+"</h3>"+"</p>")
+
+        for ( var i =1; i<=5; i++ ){   
+            for( j=i; j<=5;  j++){
+                document.write("*"+ " ")
+            }
+            document.write("<br>")
+        }
+
+
+        // ======================Task No:4 ============
+        //1
+        //1 2
+        //1 2 3
+        //1 2 3 4
+        //1 2 3 4 5
+
+        document.write("<p>"+"<h3>"+"Task#4"+"</h3>"+"</p>")
+
+
+            for (var i = 1; i<=5; i++){
+                for(j=1; j<=i ; j++){
+                    document.write(j + " ")
+                }
+                
+                document.write("<br>")
+            }
+
+
+         // ======================Task No:5 ============
+        //1 2 3 4 5
+        //1 2 3 4
+        //1 2 3
+        //1 2
+        //1
+
+        document.write("<p>"+"<h3>"+"Task#5"+"</h3>"+"</p>")
+
+         for(var i=1; i<=5; i++){
+            var p = 1;
+            for(var j=i; j<=5; j++){
+                document.write(p++ + " ")
+            }
+                document.write("<br>")
+        }
+
+        // ======================Task No:6 ============
+        //5
+        //5 4
+        //5 4 3
+        //5 4 3 2
+        //5 4 3 2 1
+
+        document.write("<p>"+"<h3>"+"Task#6"+"</h3>"+"</p>")
+
+
+        for ( var i =1; i<=5; i++ ){
+            var p = 5
+            for( j=1; j<=i; j++){
+                document.write(p-- + " ")
+            }
+            document.write("<br>")
+        }
+
+         // ======================Task No:7 ============
+        //5 4 3 2 1
+        //5 4 3 2
+        //5 4 3
+        //5 4
+        //5
+
+        document.write("<p>"+"<h3>"+"Task#7"+"</h3>"+"</p>")
+
+
+        for ( var i =1; i<=5; i++ ){
+            for( j=5; j>=i ;  j--){
+                document.write(j+ " ")
+            }
+            document.write("<br>")
+        }
+
+        // ======================Task No:8 ============
+        //*
+        //* *
+        //* * *
+        //* * * *
+        //* * * * *
+        //* * * * * *
+        //* * * * *
+        //* * * *
+        //* * *
+        //* *
+        //*
+
+        document.write("<p>"+"<h3>"+"Task#8"+"</h3>"+"</p>")
+
+        for (var i=1; i<=6; i++){
+            for(var j=1; j<=i; j++){
+                document.write(j+" ")
+            }
+                document.write("<br>")
+        }
+        for (var i=1; i<=5; i++){
+            var p = 1;
+            for(var j=i; j<=5; j++){
+                document.write(p++ +" ")
+            }
+            document.write("<br>")
+        }
+
+
+        // ==================Task No:9=================
+        //           *
+        //         * *
+        //       * * *
+        //     * * * *
+        //   * * * * *
+        // * * * * * *
+
+        document.write("<p>"+"<h3>"+"Task#9"+"</h3>"+"</p>")
+
+        for(var i =1; i<=6; i++){
+            for(var j=i; j<6; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            for(var k=1; k<=i; k++){
+                document.write("*"+ " ")
+            }
+                document.write("<br>")
+        }
+
+        // for(var i =1; i<=5; i++){
+        //     for(var j=5; j>=i; j--){
+        //         document.write('&nbsp&nbsp&nbsp')
+        //     }
+        //     for(var k=1; k<=i; k++){
+        //         document.write("*"+ " ")
+        //     }
+        //         document.write("<br>")
+        // }
+
+        // ==================Task No:10=================
+        //* * * * * *
+        //  * * * * *
+        //    * * * *
+        //      * * *
+        //        * *
+        //          *
+
+        document.write("<p>"+"<h3>"+"Task#10"+"</h3>"+"</p>")
+
+        for(var i =1; i<=6; i++){
+            
+            for(var j=1; j<i; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            for(var j=i; j<=6; j++){
+                document.write("*"+ " ")
+            }
+            document.write("<br>")
+        }
+
+        // ==================Task No:11=================
+        //          *
+        //        * * *
+        //      * * * * *
+        //    * * * * * * *
+        //  * * * * * * * * *
+        //* * * * * * * * * * *
+        //  * * * * * * * * *
+        //    * * * * * * *
+        //      * * * * *
+        //        * * *
+        //          *
+
+        document.write("<p>"+"<h3>"+"Task#11"+"</h3>"+"</p>")
+
+        for(var i =1; i<=5; i++){
+            
+            for(var j=i; j<=5; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            for(var j=1; j<=i; j++){
+                document.write("*"+ " ")
+            }
+            for(var j=1; j<i; j++){
+                document.write("*"+ " ")
+            }
+            document.write("<br>")
+        }
+            for(var i =1; i<=6; i++){
+            
+            for(var j=1; j<i; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            for(var j=i; j<=6; j++){
+                document.write("*"+ " ")
+            }
+            for(var j=i; j<=5; j++){
+                document.write("*"+ " ")
+            }
+            document.write("<br>")
+        }
+
+         // ==================Task No:11=================
+        
+        document.write("<p>"+"<h3>"+"Task#12"+"</h3>"+"</p>")
+
+        for(var i =1; i<=5; i++){
+            
+            for(var j=i; j<=5; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            for(var j=1; j<=i; j++){
+                document.write(j+ " ")
+            }
+            var r = i-1;
+            for(var j=1; j<i; j++){
+                document.write(r-- + " ")
+            }
+            document.write("<br>")
+        }
+            for(var i =1; i<=6; i++){
+            
+            for(var j=1; j<i; j++){
+                document.write('&nbsp&nbsp&nbsp')
+            }
+            var s=1
+            for(var j=i; j<=6; j++){
+                document.write(s++ + " ")
+            }
+            var t = 6-i
+            for(var j=i; j<=5; j++){
+                document.write(t-- + " ")
+            }
+            document.write("<br>")
+        }
+
+        document.write("<p>"+"<h3>"+"Task#12 2nd way"+"</h3>"+"</p>")
+
+        for(var i = 1; i<=5; i++){
+           for(var j=i; j<=5; j++){
+               document.write("&nbsp&nbsp&nbsp")
+           }
+           for (j=1; j<i; j++ ){
+               document.write(j+" ")
+           }
+           var p = i
+           for (j=1; j<=i; j++ ){
+               if ( p >=1)
+               document.write(p-- +" ")
+           }
+           document.write("<br>")
+        }
+        for(var i = 1; i<=5; i++){
+           for( j=1; j<=i+1; j++){
+               document.write("&nbsp&nbsp&nbsp")
+           }
+           p = 1
+           for (j=i; j<5; j++ ){
+               document.write(p++ +" ")
+           }
+           p = 4-i;
+           for (j=i; j<4; j++){
+               document.write(p-- + " ")
+           }
+           document.write("<br>")
+        }
+
+        document.write("<p>"+"<h3>"+"Task#12 3rd way"+"</h3>"+"</p>")
+
+        for(var i = 1; i<=5; i++){
+           var p = 1
+           for(var j=i; j<=5; j++){
+               document.write("&nbsp&nbsp&nbsp")
+           }
+           for (j=1; j<i; j++ ){
+               document.write(p++ +" ")
+           }
+
+           for (j=1; j<=i; j++ ){
+               document.write(p-- +" ")
+           }
+           document.write("<br>")
+        }
+        for(var i = 1; i<=5; i++){
+           p = 1
+           for( j=1; j<=i+1; j++){
+               document.write("&nbsp&nbsp&nbsp")
+           }
+
+           for (j=i; j<4; j++ ){
+               document.write(p++ +" ")
+           }
+           for (j=i; j<5; j++){
+               document.write(p-- + " ")
+           }
+           document.write("<br>")
+        }
+
+         // ==================Changing Case=================
+
+          // var str = "HELLO WORLD"
+            // document.write(str.toLocaleUpperCase())
+            // document.write(str.toLowerCase())
+
+
+        // var arr = ["Pakistan", "India"]
+        // var pr = prompt("enter country")
+        // var copy1 = pr.slice(0,1)
+        // var v = copy1.toUpperCase()
+        // var copy2 = pr.slice(1)
+        // var f = copy2.toLowerCase()
+        // var result = v+f
+        // for(var i = 0; i<arr.length; i++){
+        //     if (result === arr[i]){
+        //         document.write("han mil gaya")
+        //     }
+        // }
+
+             
+        // var str = []
+        // for (var i = 0; i<=1; i++){
+        //     str[i] = prompt("Enter cities you like")
+        //     str[i] = str[i].toUpperCase()
+        // }
+        // //     console.log(str)
+        //     var resp = prompt("Enter the city name").toUpperCase()
+        //     var match = false
+        // for(var i = 0; i<=str.length; i++){
+        //     if ( resp === str[i]){
+        //         match = true
+        //         alert("Found")
+        //         break
+        //     }
+        // }
+        // if ( match === false){
+        //     alert("sorry")
+        // }        
+
+
+         var str = prompt("Enter some text");
+         var numChars = str.length;
+         for (var i = 0; i < numChars; i++) {
+         if (str.slice(i, i + 2) === " ") {
+         alert("No double spaces!");
+         break
+         }
+        }
+       
+    </script>
+
+
+</body>
+</html>

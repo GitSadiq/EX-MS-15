@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Object</h1>
+
+    <script>
+        // var obj = {
+        //     name1: "sadiq",
+        //     age: 23,
+        //     roll: "msk-98",
+        //     arr: ["muhammad", "sadiq", "khan"],
+        //     abc: function () {
+        //         alert("hello World")
+        //     },
+        //     obj1: {
+        //         key: "value"
+        //     }
+        // }
+        // document.write(obj.abc())
+        // document.write(obj.obj1.key)
+
+        var obj = {
+            name1: "sadiq",
+            id: 26,
+            gender: "male",
+            arr: ["sadiq", "khan"],
+            abc: function () {
+                var a = this.name1
+                document.write(a)
+                document.write("helloWorld")
+            }
+        }
+        for (var key in obj) {
+            // document.write(key + " " + obj[key], "<br>")
+            if (key === "abc") {
+                document.write(obj.abc())
+            }
+            else if (key !== "abc") {
+                document.write(obj[key], "<br>")
+            }
+        }
+
+        // var obj = {
+
+        // }
+        // obj.age = "siq"
+    </script>
+</body>
+
+</html>

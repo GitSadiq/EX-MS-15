@@ -1,0 +1,50 @@
+#abc {
+    color: rgba(25, 19, 195, 0.847);
+    background-color: rgba(128, 191, 172, 0.83);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.P {
+
+    color: rgba(25, 19, 195, 0.847);
+    background-color: rgba(128, 191, 172, 0.83);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.www {
+    color: floralwhite;
+    background-color: rgb(123, 197, 50);
+    font-size: 20px;
+    font-family: 'Yellowtail', cursive;
+    width: 1000px;
+    /* margin-left: 100px; */
+    margin: 10px auto;
+    /* padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; */
+    padding: 100px;
+    box-shadow: 10px 10px 10px rgb(133, 214, 11);
+    /* box-shadow: -10px -10px 10px rgb(133, 214, 11); */
+    text-shadow: 10px 10px 10px rgb(99, 175, 188);
+    border: 3px dotted black;
+    border-radius: 20px;
+}
+
+div {
+    /* display: inline-block; */
+    margin: 10px auto;
+
+}
+
+button{
+    margin: 10px auto;
+    color: whitesmoke;
+    background-color: rgba(107, 13, 112, 0.404);
+    font-size: 80px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px dotted black;
+    border-radius: 90px;
+
+}

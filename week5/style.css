@@ -1,0 +1,176 @@
+/* table,td,th{
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+th{
+    background-color: aqua;
+}
+
+.abc{
+    background-color: yellow;
+}
+.def{
+    background-color: teal;
+}
+td:hover{
+    background-color: coral;
+} */
+
+/* form{
+    background-image: url('https://www.cnet.com/a/img/resize/b0fb1291f045209322a49379faa1ec7d99288b13/hub/2020/11/06/d7857572-5afe-48c3-9dfe-f91803d71768/2021-audi-rs7-008.jpg?auto=webp&width=768');
+    margin: 10px auto;
+    width: 50%;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    background-color: aqua;
+    text-align: right;
+}
+#email{
+    background-image: url('http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    background-position: left;
+}
+
+body{
+} */
+
+/* .black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}
+
+.white{
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    background-color: white;
+}
+body{
+    background-color: yellow;
+} */
+
+/* img{
+    position: relative;
+    top: -104px;
+    left: 100px;
+} */
+/* img{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+} */
+
+/* li{
+    display: inline-block;
+    width: 100px;
+    background-color: blue;
+} */
+/* ul{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
+ */
+
+/* div{
+    width: 30%;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+} */
+
+/* .abc{
+    background-color: darkmagenta;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.def{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    opacity: 0.5 ;
+    border-radius: 200px;
+} */
+
+/* a:link {
+    color: black;
+    text-decoration: none;
+
+} */
+/* a:visited {
+    color: green;}
+a:hover {
+    color: deeppink;
+    text-decoration: underline;}
+a:active {
+    color: darkcyan;}
+    
+button:focus{
+color: blueviolet;
+background-color: blue;
+}
+button:hover{
+    color: brown;
+    background-color: burlywood;
+}
+
+button:active{
+    color: dodgerblue;
+    background-color: chocolate;
+} */
+
+
+/* a:link{
+  color: darkgreen;  
+  
+}
+ 
+a:visited {
+   
+    color: red;
+  }
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: darkviolet;
+} */
+
+/* div{
+    border: 20px solid black;
+    margin: 50px auto;
+    background-color: green;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-image: url('https://media.istockphoto.com/vectors/border-frame-with-floral-pattern-vector-id162721677?k=20&m=162721677&s=612x612&w=0&h=NoFjAiO4ywQ0ZGnB2YlfGgYuVUPmWiDEZNMKCNuo30g='); 
+    border-image-slice: 60;
+    border-image-outset: 30px; 
+    border-image-width: 20px;
+    border-image-repeat: repeat;
+
+         
+} */
+
+div{
+    border: 10px solid black;
+    margin: 50px auto;
+    background-color: green;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 20px 30px 40px;
+}

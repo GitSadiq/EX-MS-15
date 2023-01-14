@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            background-color: black;
+        }
+
+        #img {
+            margin: 20px auto;
+            width: 250px;
+            height: 280px;
+            display: none;
+            border-radius: 10px;
+        }
+
+        #img1 {
+            margin: 20px auto;
+            width: 250px;
+            height: 300px;
+            display: flex;
+            border-radius: 10px;
+        }
+
+        #button {
+            margin: 20px auto;
+            width: 150px;
+            display: flex;
+            background-color: beige;
+            border-radius: 5px;
+        }
+
+        #button button {
+
+            width: 60px;
+            height: 30px;
+            border-radius: 5px;
+            margin: 2px auto;
+            background-color: rgb(251, 251, 197);
+        }
+
+        button:hover {
+            background-color: rgb(229, 229, 148) !important;
+            font-weight: bold;
+            width: 65px !important;
+            height: 32px !important;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="img1">
+        <img id="img" src="./img/Off.jpg" alt="">
+    </div>
+    <div id="button">
+        <button onclick="on()">ON</button>
+        <button onclick="off()">OFF</button>
+    </div>
+
+    <script>
+        // var isOn=false
+
+        // function on(){
+        //     var a = document.getElementById("img")
+        //     if(isOn){
+        //         alert("Bulb is already ON")
+        //         return
+        //     }
+        //     isOn=true
+        //     a.src = "./img/On.jpg"
+        //     a.style.display = "flex"
+        // } 
+        // function off(){
+        //     var a = document.getElementById("img")
+        //     if(!isOn){
+        //         alert("You Should 'ON' the bulb first")
+        //         return
+        //     }
+        //     isOn=false
+        //     a.src = "./img/Off.jpg"
+        //     a.style.display = "flex"
+        // }
+
+        var match = false
+        function on() {
+            var a = document.getElementById("img")
+            if (match === false) {
+                a.src = "./img/On.jpg"
+                a.style.display = "flex"
+                match = true
+            }
+            else {
+                alert("is on")
+                match = true
+            }
+
+        }
+
+        function off() {
+            var a = document.getElementById("img")
+            if (match === false) {
+                alert("first on the bulb")
+            }
+            else {
+                a.src = "./img/Off.jpg"
+                a.style.display = "flex"
+                match = false
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+
+#first{
+    display: flex;
+}
+.A{
+    display: flex;
+    width: 700px;
+    padding: 20px;
+   }
+.B{
+    display: flex;
+    padding: 20px;
+}
+.button{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -20px;
+    color: #4e5a46;
+}
+#img1{
+    width: 160px;
+    height: 40px;
+    margin-top: 5px;
+}
+#buttonA{
+    border: none;
+    background-color: #e43276;
+    font-size: 15px;
+    margin-top: -10px;
+    color: white;
+    height: 40px;
+    width: 130px;
+}
+#second{
+   background-color: black;
+   color: white;
+   height: 40px;
+}
+.SecondA{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    width: 160px;
+}
+.back-video{
+    width: 1247px;
+    height: 800px;
+    margin-top: -50px;
+}
+.text-box{
+    margin-top: -600px;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.text-box p{
+    font-weight: 400;
+}
+.buttonA{
+    width: 200px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 80px;
+    background-color: #e34481;
+    color: white;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.buttonB{
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 80px;
+    background-color: transparent;
+    color: white;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+}
+.Video-para{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 600px;
+
+}
+.third{
+    display: flex;
+}
+.third p{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #4e5a46;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.third img{
+    width: 1100px;
+    height: 90px;
+    margin-top: 15px;
+}
+.fourth{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 40px;
+}
+.fourth h1{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.table-img{
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+}
+.table{
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.R1 p{
+    margin-left: 100px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    margin-top: -35px;
+    padding-left: 2px;
+    color: #0e1724
+    
+    
+   
+}
+.R2{
+    margin-left: 100px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px 10px 30px;
+    color: #0e1724;
+}
+.lineBreak{
+    margin-top: 100px;
+}
+.fifth h1{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.R3 p{
+    margin-left: 100px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    margin-top: -35px;
+    padding-left: 2px;
+    color: #0e1724
+    
+   
+}
+.R4{
+    margin-left: 100px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px 10px 30px;
+    color: #0e1724;
+}
+.sixth h1{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.sixth p{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.sixth tr{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.table2-img{
+    margin-left: 20px;
+    width: 275px;
+    height: 220px;
+}
+.table2{
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.table2-content{
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+.button-last{
+    border: none;
+    background-color: #e43276;
+    font-size: 15px;
+    margin-top: 80px;
+    color: white;
+    height: 40px;
+    width: 160px;
+    margin-left: 550px;
+}

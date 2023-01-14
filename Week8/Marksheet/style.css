@@ -1,0 +1,61 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(15,79,92,1) 0%, rgba(36,154,178,1) 40%, rgba(43,149,170,1) 88%);
+}
+.container{
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 700px;
+    height: 570px;
+    font-size: 18px;
+    background: linear-gradient(100deg, rgb(60, 138, 154) 0%, rgba(81, 156, 171, 0.97) 40%, rgb(100, 175, 190) 88%);
+    box-shadow: 8px 8px 10px #054b4f;
+    border-radius: 5px;
+    
+}
+img{
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px ;
+}
+h1{
+    font-family: "Alumni Sans Inline One rev=3";
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #0f848a;
+    margin-top: 10px;
+}
+table{
+    width: 690px;
+    margin: auto;
+    margin-top: -18px;
+}
+.col1{
+    border: 2px solid black;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #054b4f;
+}
+.col2{
+    border: 2px solid black;
+    text-align: center;
+    text-shadow: 0px 0px 1px #054b4f;
+}
+.table2{
+    width: 690px;
+    margin: auto;
+    margin-top: 5px;
+}
+.row1{
+    border: 2px solid black;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #054b4f;
+    text-align: center;
+}
+.row2{
+    border: 2px solid black;
+    text-shadow: 0px 0px 1px #054b4f;
+    text-align: center;
+}

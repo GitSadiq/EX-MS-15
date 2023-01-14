@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Mark Sheet</title>
+</head>
+<body class="container-fluid">
+    <div class="container">
+        <img src="./images/logo.jpg" >
+        <h1>student's mark sheet</h1>
+        <table class="">
+            <tr>
+                <td class="col1">Name of the student</td>
+                <td class="col2" id="name"></td>
+            </tr>
+            <tr>
+                <td class="col1">Registration No.</td>
+                <td class="col2" id="RegNo"></td>
+            </tr>
+            <tr>
+                <td class="col1">Name of the Program</td>
+                <td class="col2">Web & App Development</td>
+            </tr>
+            <tr>
+                <td class="col1">Date of Examination</td>
+                <td class="col2">05 Aug, 2022</td>
+            </tr>
+            <tr>
+                <td class="col1">Grade</td>
+                <td class="col2" id="grade"></td>
+            </tr>
+        </table>
+
+        <table class="table2">
+            <tr >
+                <td class="row1" width="90px">S.No.</td>
+                <td class="row1" width="150px">Subject</td>
+                <td class="row1" width="150px">Max Marks</td>
+                <td class="row1" width="150px">Marks Obtained</td>
+                <td class="row1" width="150px">Remarks/Results</td>
+            </tr>
+            <tr >
+                <td class="row2" width="90px">1</td>
+                <td class="row2" width="150px">HTML</td>
+                <td class="row2" width="150px">100</td>
+                <td class="row2" width="150px" id="html"></td>
+                <td class="row2" width="150px" id="remarkshtml"></td>
+            </tr>
+            <tr >
+                <td class="row2" width="90px">2</td>
+                <td class="row2" width="150px">CSS</td>
+                <td class="row2" width="150px">100</td>
+                <td class="row2" width="150px" id="css"></td>
+                <td class="row2" width="150px" id="remarkscss"></td>
+            </tr>
+            <tr >
+                <td class="row2" width="90px">3</td>
+                <td class="row2" width="150px">Flex box</td>
+                <td class="row2" width="150px">100</td>
+                <td class="row2" width="150px" id="flex"></td>
+                <td class="row2" width="150px" id="remarksflex"></td>
+            </tr>
+            <tr >
+                <td class="row2" width="90px">4</td>
+                <td class="row2" width="150px">Bootstrap</td>
+                <td class="row2" width="150px">100</td>
+                <td class="row2" width="150px" id="boot"></td>
+                <td class="row2" width="150px" id="remarksboot"></td>
+            </tr>
+            <tr >
+                <td class="row2" width="90px">5</td>
+                <td class="row2" width="150px">Javascript</td>
+                <td class="row2" width="150px">100</td>
+                <td class="row2" width="150px" id="java"></td>
+                <td class="row2" width="150px" id="remarksjava"></td>
+            </tr>
+            <tr >
+                <td class="row1" width="90px" colspan="2">Grand Total</td>
+                <td class="row1" width="150px">500</td>
+                <td class="row1" width="150px" id="totalmarks"></td>
+                <td class="row1" width="150px" id="percentage"></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="app.js"> </script>
+</body>
+</html> 

@@ -1,0 +1,170 @@
+#body{
+    width: 1200px;
+    margin: 10px auto;
+    font-family: Neue Montreal;
+}
+
+#first{
+    display: flex;
+    margin: 20px auto;
+    font-family: Neue Montreal;
+    font-size: 25px;
+}
+.first-A{
+    margin-left: 10px;
+    /* padding-left: 50px; */
+    width: 10%;
+}
+.first-B{
+    width: 50%;
+}
+.first-C{
+    width: 40%;
+}
+
+.first-dropdown{
+    width: 130px;
+    padding-left: 20px;
+    color: #4e5a46;
+    border: none;
+}
+.first-button{
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    border: none;
+}
+#second{
+    width: 80%;
+    font-size: 25px;
+    font-family: Neue Montreal;
+}
+.second-button{
+    color: #4e5a46;
+    border: none;
+    height: 40px;
+    width: 140px;
+    background-color: white;
+}
+#third{
+    display: flex;
+}
+#thirdB{
+    margin-left: 20px;
+}
+h1{
+    padding-left: 10px;
+    color: #4b9f2f;
+    font-size: 80px;
+    height: 140px;
+}
+p{
+    padding-left: 10px;
+    color: #4e5a46;
+    font-size: 25px;
+    height: 5px;
+}
+.third-button{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+#fourth{
+    display: flex;
+}
+
+h2{
+    margin-left: 10px;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+p.A{
+    font-size: 20px;
+    color: #5e6d55;
+}
+.fourth-button{
+    width: 160px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #4b9f2f;
+    padding-right: 30px;
+    border: none;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.fifthA{
+    margin-left: 10px;
+    height: 130px;
+    width: 260px;
+    margin-bottom: 10px;
+}
+#sixth{
+    display: flex;
+    font-family: Neue Montreal;
+    margin-top: 80px;
+}
+#sixthA{
+    width: 60%;
+    height: 520px;
+    border-radius: 10px;
+    border: none;
+    color: #4e5a46;
+    background-color: #ededed9a;
+    margin-left: 10px;
+    padding: 20px;
+}
+h3{
+    font-size: 50px;
+    color: black;
+    margin-bottom: -10px;
+    font-family: Rza, Rza-fallback;
+}
+h4{
+    font-size: 30px;
+    color: black;
+    margin-bottom: -3px;
+}
+p.B{
+    font-family: Neue Montreal;
+    color: #5e6d55;
+    margin-top: 4px;
+    font-size: 15px;
+    padding-left: 32px;
+}
+#sixthB{
+    width: 2%;
+    background-color:white;
+   
+}
+#sixthC{
+    width: 30%;
+    height: 410px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4b9f2f;
+    margin-left: 10px;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+h5{
+    font-size: 30px;
+    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: -60px;
+}
+h6{
+    font-size: 30px;
+    color: white;
+    margin-bottom: -3px;
+}
+p.C{
+    font-family: Neue Montreal;
+    color: white;
+    margin-top: -4px;
+    font-size: 15px;
+    padding-left: 32px;
+}
